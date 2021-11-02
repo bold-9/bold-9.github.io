@@ -1,6 +1,6 @@
 <style>
-h1{
-  display:none;
+  .container-lg{
+  display:none
 }
 </style>
 
