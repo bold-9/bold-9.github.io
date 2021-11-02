@@ -1,5 +1,46 @@
-## [Bold-9 github Page](https://github.com/bold-9/bold-9.github.io)
+<style>
+.subject{
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color : black;
+}
+.box{
+  outline-style: solid;
+  padding : 20px;
+  outline-color : black;
+  height : 1000px;
+  weight : 100%;
+}
+.subject{
+  font-size : 40px;
+  text-align: center;
+  margin : 0 0 70px 0;
+}
 
-## [Front-end convention](https://bold-9.github.io/front-end)
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
 
-## [자사몰 API Docs](https://bold-9.github.io/ownMall)
+.navbar >li{
+  display :flex;
+  font-size : 25px;
+
+}
+
+
+</style>
+ <center><img width="800px"  alt="logo" src="https://user-images.githubusercontent.com/57890052/139808423-eb478b6d-4d26-4075-8165-c7a75bc9a8a2.png"></center>
+ <br/>
+<h2 class="subject">Developer's page</h2>
+<br/>
+<nav>
+  <ul class="navbar">
+    <li>About</li>
+    <li><a class="link" href="https://bold-9.github.io/ownMall">API Document</a></li>
+    <li><a class="link" href="https://bold-9.github.io/front-end">Tech</a></li>
+    <li>Blog</li>
+  </ul>
+</nav>
