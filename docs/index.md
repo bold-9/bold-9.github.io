@@ -1,4 +1,7 @@
 <style>
+h1{
+  display:none;
+}
 .subject{
   text-align: center;
 }
@@ -29,8 +32,6 @@
   font-size : 25px;
 
 }
-
-
 </style>
  <center><img width="800px"  alt="logo" src="https://user-images.githubusercontent.com/57890052/139808423-eb478b6d-4d26-4075-8165-c7a75bc9a8a2.png"></center>
  <br/>
