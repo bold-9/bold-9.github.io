@@ -1,7 +1,5 @@
 <style>
-  .container-lg{
-  display:none
-}
+h1:nth-child(1){display:none;}
 </style>
 
 # 자사몰 연동 API
