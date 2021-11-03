@@ -20,13 +20,7 @@ h1:nth-child(1){display:none;}
   margin : 0 0 70px 0;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-around;
-}
-
 .navbar >li{
-  display :flex;
   font-size : 25px;
 }
 </style>
