@@ -28,6 +28,7 @@ start_date; // 주문 조회 시작 날짜 (예_2021-01-01T00:00:00)
 end_date; // 주문 조회 종료 날짜
 order_status; // 주문 상태 (예_ 결제완료, 발주처리(주문확정), 배송중 등)
 date_type; // 검색 날짜 유형 (예_ 주문완료일, 결제완료일)
+shop_id; // 주문을 조회할 shop을 특정하기 위한 값
 ```
 
 **응답 데이터**
@@ -51,6 +52,7 @@ date_type; // 검색 날짜 유형 (예_ 주문완료일, 결제완료일)
 	  productOptionNumber? // 상품 옵션 번호
 	  productOptionName // 상품 옵션명
 	  productQuantity // 상품 수량
+    orderProductNumber? // 주문 상품 번호
 	  productPriceAmount // 배송비를 제외한 상품 총 가격
 	  isShippingFeePaid // 배송비 선결제 여부
 	  shippingFee // 배송비
@@ -96,6 +98,7 @@ orderNumber; // 주문 번호
   tracking_no; // 송장 번호
   shipping_company_code; // 택배사 코드
   orderNumber; // 주문 번호
+  orderProductNumber?; // 주문 상품 번호
 }
 ```
 
@@ -154,6 +157,7 @@ LOTTE : 롯데 택배
     productOptionNumber? // 상품 옵션 번호
     productOptionName // 상품 옵션명
     productQuantity // 상품 수량
+    orderProductNumber? // 주문 상품 번호
     productPriceAmount // 배송비를 제외한 상품 총 가격
     isShippingFeePaid // 배송비 선결제 여부
     shippingFee // 배송비
