@@ -97,7 +97,7 @@ orderNumber; // 주문 번호
 {
   tracking_no; // 송장 번호
   shipping_company_code; // 택배사 코드
-  orderNumber; // 주문 번호
+  orderNumber?; // 주문 번호
   orderProductNumber?; // 주문 상품 번호
 }
 ```
