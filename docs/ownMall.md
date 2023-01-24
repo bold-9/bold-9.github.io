@@ -24,11 +24,11 @@ h1:nth-child(1){display:none;}
 **요청 파라미터**
 
 ```js
-start_date; // 주문 조회 시작 날짜 (예_2021-01-01T00:00:00)
-end_date; // 주문 조회 종료 날짜
-order_status; // 주문 상태 (예_ 결제완료, 발주처리(주문확정), 배송중 등)
-date_type; // 검색 날짜 유형 (예_ 주문완료일, 결제완료일)
-shop_id; // 주문을 조회할 shop을 특정하기 위한 값
+start_date // 주문 조회 시작 날짜 (예_2021-01-01T00:00:00)
+end_date // 주문 조회 종료 날짜
+order_status // 주문 상태 (예_ 결제완료, 발주처리(주문확정), 배송중 등)
+date_type // 검색 날짜 유형 (예_ 주문완료일, 결제완료일)
+shop_id // 주문을 조회할 shop을 특정하기 위한 값
 ```
 
 **응답 데이터**
@@ -75,15 +75,15 @@ shop_id; // 주문을 조회할 shop을 특정하기 위한 값
 **요청 파라미터**
 
 ```js
-orderNumber; // 주문 번호
+orderNumber // 주문 번호
 ```
 
 **응답 데이터**
 
 ```js
 {
-  response; // 확정 성공 실패 여부
-  reason; // 실패 이유
+  response // 확정 성공 실패 여부
+  reason // 실패 이유
 }
 ```
 
@@ -95,10 +95,10 @@ orderNumber; // 주문 번호
 
 ```js
 {
-  tracking_no; // 송장 번호
-  shipping_company_code; // 택배사 코드
-  orderNumber?; // 주문 번호
-  orderProductNumber?; // 주문 상품 번호
+  tracking_no // 송장 번호
+  shipping_company_code // 택배사 코드
+  orderNumber? // 주문 번호
+  orderProductNumber? // 주문 상품 번호
 }
 ```
 
@@ -106,8 +106,8 @@ orderNumber; // 주문 번호
 
 ```js
 {
-  response; // 등록 성공 실패 여부
-  reason; // 실패 이유
+  response // 등록 성공 실패 여부
+  reason // 실패 이유
 }
 ```
 
@@ -115,11 +115,11 @@ orderNumber; // 주문 번호
 
 > shipping_company_code params에 할당 될 택배사 코드
 
-### 코드 값
-
-CJ : CJ 택배
-
-LOTTE : 롯데 택배
+|  코드  |   설명    |
+| :----: | :-------: |
+|   CJ   |  CJ 택배  |
+| LOTTE  | 롯데 택배 |
+| HANJIN | 한진 택배 |
 
 ---
 
@@ -129,10 +129,10 @@ LOTTE : 롯데 택배
 
 ```js
 {
-  start_date; // 취소 주문 조회 시작 날짜 (예_2021-01-01T00:00:00)
-  end_date; // 취소 주문 조회 종료 날짜
-  order_status; // 주문 상태 (예_ 결제완료, 상품준비 중, 배송 중, 취소요청,취소완료 등)
-  date_type; // 검색 날짜 유형 (주문완료일, 결제완료일, 취소요청일, 취소완료일)
+  start_date // 취소 주문 조회 시작 날짜 (예_2021-01-01T00:00:00)
+  end_date // 취소 주문 조회 종료 날짜
+  order_status // 주문 상태 (예_ 결제완료, 상품준비 중, 배송 중, 취소요청,취소완료 등)
+  date_type // 검색 날짜 유형 (주문완료일, 결제완료일, 취소요청일, 취소완료일)
 }
 ```
 
