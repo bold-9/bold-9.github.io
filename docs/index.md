@@ -31,7 +31,7 @@ h1:nth-child(1){display:none;}
 <nav>
   <ul class="navbar">
     <li>About</li>
-    <li><a class="link" href="https://bold-9.github.io/ownMall">API Document</a></li>
+    <li><a class="link" href="https://tin-shift-c17.notion.site/Market-API-Spec-22d76d4f163944d8b12d68d6bd8ddb68">API Document</a></li>
     <li><a class="link" href="https://bold-9.github.io/front-end">Tech</a></li>
     <li>Blog</li>
   </ul>
